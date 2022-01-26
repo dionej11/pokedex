@@ -1,0 +1,19 @@
+.pagination {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-content: center;
+  gap: 5px;
+}
+.pagination button {
+  background-color: #9DCB3B;
+  border: none;
+  border-radius: 10px;
+  font-family: monospace;
+  cursor: pointer;
+}
+.pagination .indicador {
+  background: #2aaafc;
+  border: thin solid black;
+  color: black;
+}

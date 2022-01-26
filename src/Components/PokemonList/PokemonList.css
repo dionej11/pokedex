@@ -1,0 +1,197 @@
+.pokedex {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.pokemonView {
+  width: 100%;
+  height: 20rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background-color: #DC0A2D;
+  border-radius: 10px;
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.pokemonViewCicles {
+  width: 100%;
+}
+.pokemonViewCicles img {
+  width: 5.5rem;
+}
+.pokemonViewFigure {
+  background-color: #ffffff;
+  width: 90%;
+  height: 82%;
+  margin: 0 auto;
+  border-bottom-left-radius: 10px;
+  border: thin solid black;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.pokemonViewLines {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  padding-top: 4px;
+  box-sizing: border-box;
+}
+.pokemonViewLines div{
+  width: 4rem;
+  height: 0.2rem;
+  border: thin solid black;
+  background-color: blue;
+}
+.pokemonViewLines div:nth-child(1) {
+  background-color: #FF4B4B;
+}
+.pokemonViewLines div:nth-child(2) {
+  background-color: #7BA9F9;
+}
+.figureWrapp {
+  width: 90%;
+  background-color: #c8b6d9;
+  height: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: thin solid black;
+  display: flex;
+  justify-content: center;
+}
+.figureWrapp img {
+  width: auto;
+}
+.figureDecoration {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 11%;
+}
+.pokemonAside {
+  width: 100%;
+  height: 38rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background-color: #DC0A2D;
+  border-radius: 10px;
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0 ;
+}
+.pokemonAside .pokemonAsideData {
+  width: 90%;
+  background-color: #333030;
+  border-radius: 10px;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.pokemonAside .pokemonAsideData p,
+.pokemonAside .pokemonAsideData h3 {
+  margin: 0.5rem 0;
+}
+.dataAbilities {
+  display: flex;
+  justify-content: space-around;
+}
+.dataAbilities p{
+  background-color: #43CE58;
+  color: #231F20;
+  padding: 0.2rem;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 0;
+}
+.pokemonAsidepokes {
+  width: 90%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.pokemonAsidepokes div {
+  background-color: #ffffff;
+  border: thin solid rgb(88, 88, 88);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pokemonAside .pokemonAsidepokes .indipoke {
+  border: 3px solid #231f20;
+}
+.pokemonAsidepokes img {
+  width: 4rem;
+}
+.Asidepokes__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Asidepokes__buttons button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.Asidepokes__buttons button:disabled {
+  cursor: not-allowed;
+}
+.paginationButton {
+  background-color: #231F20;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.loader {
+  grid-column: 3 / 4;
+}
+@media (min-width: 800px) { 
+  .pokedex {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 1rem;
+  }
+  .pokemonView {
+    width: 50%;
+    height: 30rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background-color: #DC0A2D;
+    border-radius: 10px;
+    border: thin solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pokemonAside{
+    width: 50%;
+    height: 28rem;
+    margin: 0;
+    border-top-right-radius: 50px;
+  }
+  .pokemonAsidepokes {
+    width: 95%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+  .pokemonAside .pokemonAsideData {
+    width: 60%;
+    padding: 0.1rem;
+  }
+}

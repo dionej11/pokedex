@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  padding: 0.7rem 0;
+  display: flex;
+  justify-content: center;
+}
+.header img {
+  width: 10rem;
+}
+@media (min-width: 800px) { 
+  .header img {
+    width: 12rem;
+  }
+}
