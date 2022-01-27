@@ -12,6 +12,6 @@ The pokedex is a portable electronic encyclopedia that Pokémon trainers carry w
 ## Contributors ⌨
 [Daniela Jurado B](https://github.com/dionej11 "Daniela Jurado B")
 #### Social media 😎
-<img  src="http://assets.stickpng.com/images/58e9196deb97430e819064f6.png" width="30px"/> [@dionej11](https://twitter.com/dionej11 "@dionej11")
+<img  src="https://cdn-icons-png.flaticon.com/512/124/124021.png" width="30px"/> [@dionej11](https://twitter.com/dionej11 "@dionej11")
 
 <img  src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="30px"/> [@dionej11](https://www.instagram.com/dionej11/ "@dionej11")
